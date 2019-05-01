@@ -1,0 +1,115 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Installer.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="InstallerDlg.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="CWelcomeDialog.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="CSelectFilePath.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="CStartInstall.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="CProcess.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="CFinshedDialog.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Installer.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="InstallerDlg.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CWelcomeDialog.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CSelectFilePath.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CStartInstall.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CProcess.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CFinshedDialog.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Installer.rc">
+      <Filter>资源文件</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="res\Installer.rc2">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\projectr.bin">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="..\..\..\..\FSS打包\新建文件夹\libcrypto-1_1.dll" />
+    <None Include="..\..\..\..\FSS打包\新建文件夹\libssl-1_1.dll" />
+    <None Include="..\..\..\..\FSS打包\新建文件夹\msvcr120.dll" />
+    <None Include="..\..\..\..\FSS打包\新建文件夹\userUI.exe" />
+    <None Include="res\dll4.bin">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="..\..\..\..\FSS打包\新建文件夹\all2txt\a2t.key" />
+    <None Include="..\..\..\..\FSS打包\新建文件夹\all2txt\a2thlp.dll" />
+    <None Include="..\..\..\..\FSS打包\新建文件夹\all2txt\a2thtm.dll" />
+    <None Include="..\..\..\..\FSS打包\新建文件夹\all2txt\a2tpdf.dll" />
+    <None Include="..\..\..\..\FSS打包\新建文件夹\all2txt\a2trtf.dll" />
+    <None Include="res\exe2.bin">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="..\..\..\..\FSS打包\res\NEW2\MainClient(托盘多).exe" />
+    <None Include="res\exe1.bin">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="..\..\FSS_1_0\Debug\searchFile.exe" />
+    <None Include="..\..\..\..\FSS打包\新建文件夹\all2txt\a2tcmd.exe" />
+    <None Include="..\..\..\..\FSS打包\res\NEW2\MainClient(多+托).exe" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="res\Installer.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+  </ItemGroup>
+</Project>
